@@ -1,2 +1,5 @@
 background: rgb(170,170,170);
-background: linear-gradient(90deg, rgba(170,170,170,1) 0%, rgba(0,0,0,1) 50%, rgba(170,170,170,1) 100%); 
+background: -moz-linear-gradient(90deg, rgba(170,170,170,1) 0%, rgba(0,0,0,1) 50%, rgba(170,170,170,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(170,170,170,1) 0%, rgba(0,0,0,1) 50%, rgba(170,170,170,1) 100%);
+background: linear-gradient(90deg, rgba(170,170,170,1) 0%, rgba(0,0,0,1) 50%, rgba(170,170,170,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#aaaaaa",endColorstr="#aaaaaa",GradientType=1);
